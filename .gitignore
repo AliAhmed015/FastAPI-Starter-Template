@@ -1,0 +1,110 @@
+# Python Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cython debug symbols
+cython_debug/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.db
+*.sqlite3
+*.sqlite
+
+# FastAPI environment files
+.env
+.env.*
+
+# Docker files
+Dockerfile*
+docker-compose.yml
+
+# Test output
+*.log
+*.coverage
+coverage/
+nosetests.xml
+*.cover
+*.hypothesis/
+
+# Dependency directories
+node_modules/
+
+# Flask's .env file (if using Flask alongside FastAPI)
+.env/
+
+# Pytest cache
+.cache/
+
+# PyCharm project files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Coverage directory
+.coverage
+.coverage.*
+*.cover
+
+# Python packaging files
+*.tar.gz
+*.zip
+
+# PyInstaller files (if packaging app into executable)
+*.spec
+
+# SQLAlchemy migrations (if you're using Alembic)
+migrations/
+
+# log files
+*.log
+
+# Test databases (SQLite, etc)
+test.db
+test.sqlite
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Pytest and other testing cache
+.pytest_cache/
+
+# FastAPI migrations (if using Alembic)
+alembic.ini
+
+# .coverage directory from coverage testing tool
+.coverage
+
+# Specific editor backup files
+*~
+*.bak
+*.swp
